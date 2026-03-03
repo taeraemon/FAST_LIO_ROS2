@@ -36,6 +36,7 @@ sudo make install
 
 ```bash
 git clone -b ros2 --recurse-submodules https://github.com/ouster-lidar/ouster-ros.git
+cd ouster-ros
 colcon build \
 --symlink-install \
 --cmake-args -DCMAKE_BUILD_TYPE=Release \
